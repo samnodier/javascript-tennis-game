@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato&family=Open+Sans&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 13px;
+}
+
+body {
+  overflow: hidden;
+  font-size: 3rem;
+  font-weight: bold;
+  color: 'white';
+  background-color: 'white';
+  font-family: 'Product Sans';
+  background: #000000;
+}
+
+.left-score {
+  position: absolute;
+  top:0;
+  left: 0;
+  color: 'white';
+}
+
+.right-score {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: 'white';
+}
+
+.timer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.startbtn {
+  -webkit-appearance: none;
+  outline: none;
+  border: 2px solid white;
+  text-transform: uppercase;
+  width: 15rem;
+  height: 5rem;
+  font-size: 3rem;
+  background: rgba(0, 0, 0, .5);
+  color: white;
+  border-radius: 1px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.startbtn:hover {
+  animation: 0.5s grow ease-in-out forwards;
+  box-shadow: 0 0 15px white;
+}
+
+@keyframes grow {
+  0% {
+    transform: translate(-50%, -40%) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -40%) scale(1.2);
+  }
+}
+
+.player-input {
+  -webkit-appearance: none;
+  outline: none;
+  width: 20rem;
+  height: 3rem;
+  font-size: 2rem;
+  margin: 1rem;
+  border: none;
+  font-family: inherit;
+}
+
+.player-entry {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+/* Controls */
+.controls {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase
+}
+
+.controls > div {
+  display: flex;
+  border: 1px solid white;
+  padding: 1rem;
+}
+
+.controls > div > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.controls > div > ul > li {
+  margin: 0;
+  text-align: left;
+}
+
+audio {
+  visibility: hidden;
+  position: absolute;
+}
+
+.winner {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+.winner:hover {
+  text-shadow: 0 0 10px white;
+}

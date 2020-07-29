@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Tennis Game</title>
+</head>
+<body>
+  <div class="left-score"></div>
+  <div class="timer"></div>
+  <div class="right-score"></div>
+  <div class="player-entry">
+    <input type="text" name="player1" placeholder="Enter Player 1" class="player-input" id="input1" maxlength="10">
+    <input type="text" name="player2" placeholder="Enter Player 2" class="player-input" id="input2" maxlength="10">  
+  </div>
+
+  <div class="winner">
+    <div class="winner-text"></div>
+    <div class="restart-the-game"></div>
+  </div>
+  <button class="startbtn">start</button>
+  <div class="controls">
+    <h2>controls</h2>
+    <div>
+      <p>Player 1</p>
+      <ul>
+        <li>A: UP</li>
+        <li>D: DOWN</li>
+      </ul>
+    </div>
+    <div>
+      <P>Player 2</P>
+      <ul>
+        <li>J: UP</li>
+        <li>L: DOWN</li>
+      </ul>
+    </div>
+  </div>
+  <canvas></canvas>
+  <script src="./main.js"></script>
+</body>
+</html>
