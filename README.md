@@ -21,4 +21,4 @@ Feel free to tell me what I can add to the project to make it more advanced and 
 #### This is the some part of the code.
 ![Some code in Sublime](./images/code.png)
 
-## proprgrmmr on Instagram [Instagram](https://www.instagram.com/proprgrmmr), Twitter [Twitter]('https://twitter.com/proprgrmmr') Facebook[Facebook](https://web.facebook.com/pro.programmer.14) :100: 
+## proprgrmmr on [Instagram](https://www.instagram.com/proprgrmmr), [Twitter](https://twitter.com/proprgrmmr), and [Facebook](https://web.facebook.com/pro.programmer.14):100: 
